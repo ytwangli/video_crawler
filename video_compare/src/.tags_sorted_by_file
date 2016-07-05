@@ -1,0 +1,269 @@
+CODE_FLAG	compare_v1.cpp	46;"	d	file:
+CodeKey	compare_v1.cpp	/^}CodeKey;$/;"	t	typeref:struct:_CodeKey	file:
+CompareResult	compare_v1.cpp	/^}CompareResult;$/;"	t	typeref:struct:_CompareResult	file:
+DB	compare_v1.cpp	40;"	d	file:
+DEBUG	compare_v1.cpp	23;"	d	file:
+FormatDir	compare_v1.cpp	/^void FormatDir(string& strDir)$/;"	f
+HOST_R	compare_v1.cpp	36;"	d	file:
+HOST_W	compare_v1.cpp	37;"	d	file:
+LBP_SIM	compare_v1.cpp	/^float LBP_SIM = 0.85;$/;"	v
+LONG_CONNECT	compare_v1.cpp	44;"	d	file:
+MSSIM_SIM	compare_v1.cpp	/^float MSSIM_SIM = 0.8;$/;"	v
+NEW_FLAG	compare_v1.cpp	48;"	d	file:
+NEW_FLAG_UPDATE	compare_v1.cpp	50;"	d	file:
+PASSWD	compare_v1.cpp	39;"	d	file:
+PORT	compare_v1.cpp	41;"	d	file:
+ReportInfo	compare_v1.cpp	/^}ReportInfo;$/;"	t	typeref:struct:_ReportInfo	file:
+TableInfo	compare_v1.cpp	/^}TableInfo;$/;"	t	typeref:struct:_TableInfo	file:
+ThreadArgs	compare_v1.cpp	/^}ThreadArgs;$/;"	t	typeref:struct:_ThreadArgs	file:
+USED_FLAG	compare_v1.cpp	47;"	d	file:
+USED_FLAG_UPDATE	compare_v1.cpp	49;"	d	file:
+USER	compare_v1.cpp	38;"	d	file:
+USE_MYSQL	compare_v1.cpp	25;"	d	file:
+USE_SQLITE3	compare_v1.cpp	24;"	d	file:
+_CodeKey	compare_v1.cpp	/^typedef struct _CodeKey{$/;"	s	file:
+_CompareResult	compare_v1.cpp	/^typedef struct _CompareResult{$/;"	s	file:
+_ReportInfo	compare_v1.cpp	/^typedef struct _ReportInfo{$/;"	s	file:
+_TableInfo	compare_v1.cpp	/^typedef struct _TableInfo{$/;"	s	file:
+_ThreadArgs	compare_v1.cpp	/^typedef struct _ThreadArgs{$/;"	s	file:
+bitCount	compare_v1.cpp	/^int bitCount ( unsigned n ) {$/;"	f
+compare_time	compare_v1.cpp	/^int compare_time(string &str1,string &str2)$/;"	f
+count	compare_v1.cpp	/^	int count;$/;"	m	struct:_CodeKey	file:
+deepCompare	compare_v1.cpp	/^float deepCompare(char *path1,char *path2,CvRect roi)$/;"	f
+g_ihost	compare_v1.cpp	/^int g_ihost = -1;$/;"	v
+g_inPath1	compare_v1.cpp	/^char g_inPath1[PATH_MAX];$/;"	v
+g_inPath2	compare_v1.cpp	/^char g_inPath2[PATH_MAX];$/;"	v
+g_mutex_file	compare_v1.cpp	/^pthread_mutex_t g_mutex_file;$/;"	v
+g_rectRoi	compare_v1.cpp	/^CvRect g_rectRoi = cvRect(0,0,0,0);$/;"	v
+g_threadNum	compare_v1.cpp	/^int g_threadNum = 4;$/;"	v
+getCodes	compare_v1.cpp	/^int getCodes(string dirPath, vector<CodeKey>& CodeList)$/;"	f
+getDirList	compare_v1.cpp	/^int getDirList(string strDir,list<string> &pList)$/;"	f
+getFileList	compare_v1.cpp	/^int getFileList(string strDir,list<string> &pList)$/;"	f
+getFileList	compare_v1.cpp	/^int getFileList(string strDir,vector<string> &pList)$/;"	f
+getMSSIM	compare_v1.cpp	/^Scalar getMSSIM(char * imagePatha,char * imagePathb,CvRect roi)$/;"	f
+hashCode	compare_v1.cpp	/^	int hashCode[2];$/;"	m	struct:_CodeKey	file:
+imageHist	compare_v1.cpp	/^int imageHist(char* imagePath,CvRect roi_s,CvRect roi_d)$/;"	f
+lbpCode	compare_v1.cpp	/^	float lbpCode[59];$/;"	m	struct:_CodeKey	file:
+m_bReady	compare_v1.cpp	/^	bool m_bReady;$/;"	m	struct:_ThreadArgs	file:
+m_cond	compare_v1.cpp	/^	pthread_cond_t m_cond;$/;"	m	struct:_ThreadArgs	file:
+m_hash_dist	compare_v1.cpp	/^	int m_hash_dist;$/;"	m	struct:_CompareResult	file:
+m_iCodeFlag	compare_v1.cpp	/^	int m_iCodeFlag;$/;"	m	struct:_TableInfo	file:
+m_iNewFlag	compare_v1.cpp	/^	int m_iNewFlag;		$/;"	m	struct:_TableInfo	file:
+m_iUsedFlag	compare_v1.cpp	/^	int m_iUsedFlag;$/;"	m	struct:_TableInfo	file:
+m_ihost	compare_v1.cpp	/^	int m_ihost;	$/;"	m	struct:_ThreadArgs	file:
+m_lbp_sim	compare_v1.cpp	/^	float m_lbp_sim;$/;"	m	struct:_CompareResult	file:
+m_lstObj	compare_v1.cpp	/^	list< pair<TableInfo,list<TableInfo> > > m_lstObj;$/;"	m	struct:_ThreadArgs	file:
+m_lstObjKey	compare_v1.cpp	/^	list<string> m_lstObjKey;$/;"	m	struct:_ThreadArgs	file:
+m_lstSrcKey	compare_v1.cpp	/^	list<string> m_lstSrcKey;	$/;"	m	struct:_ThreadArgs	file:
+m_mtx_file	compare_v1.cpp	/^	pthread_mutex_t m_mtx_file;$/;"	m	struct:_ThreadArgs	file:
+m_mtx_lock	compare_v1.cpp	/^	pthread_mutex_t	m_mtx_lock;$/;"	m	struct:_ThreadArgs	file:
+m_ssim_sim	compare_v1.cpp	/^	float m_ssim_sim;	$/;"	m	struct:_CompareResult	file:
+m_strDatabase	compare_v1.cpp	/^	string m_strDatabase;$/;"	m	struct:_ThreadArgs	file:
+m_strDate	compare_v1.cpp	/^	string m_strDate;$/;"	m	struct:_TableInfo	file:
+m_strImageDir	compare_v1.cpp	/^	string m_strImageDir;$/;"	m	struct:_TableInfo	file:
+m_strKeyPath	compare_v1.cpp	/^	string m_strKeyPath;$/;"	m	struct:_TableInfo	file:
+m_strKeyType	compare_v1.cpp	/^	string m_strKeyType;	$/;"	m	struct:_TableInfo	file:
+m_strObj	compare_v1.cpp	/^	string m_strObj;$/;"	m	struct:_CompareResult	file:
+m_strOnlineTime	compare_v1.cpp	/^	string m_strOnlineTime;$/;"	m	struct:_TableInfo	file:
+m_strPath	compare_v1.cpp	/^	string m_strPath;$/;"	m	struct:_ReportInfo	file:
+m_strReportDir	compare_v1.cpp	/^	string m_strReportDir;$/;"	m	struct:_ThreadArgs	file:
+m_strRoi	compare_v1.cpp	/^	string m_strRoi;$/;"	m	struct:_TableInfo	file:
+m_strSite	compare_v1.cpp	/^	string m_strSite;	$/;"	m	struct:_ReportInfo	file:
+m_strSite	compare_v1.cpp	/^	string m_strSite;$/;"	m	struct:_TableInfo	file:
+m_strSrc	compare_v1.cpp	/^	string m_strSrc;	$/;"	m	struct:_CompareResult	file:
+m_strTable	compare_v1.cpp	/^	string m_strTable;$/;"	m	struct:_ThreadArgs	file:
+main	compare_v1.cpp	/^int main(int argc, char* argv[])$/;"	f
+path	compare_v1.cpp	/^	string path;$/;"	m	struct:_CodeKey	file:
+removeAll	compare_v1.cpp	/^void removeAll(string &str,char c)$/;"	f
+tableName_i	compare_v1.cpp	/^char tableName_i[] = "iqiyidata";$/;"	v
+tableName_o	compare_v1.cpp	/^char tableName_o[] = "pathdata";$/;"	v
+thread_compare	compare_v1.cpp	/^void* thread_compare(void *arg)$/;"	f
+thread_getImageList	compare_v1.cpp	/^void* thread_getImageList(void *arg)$/;"	f
+tid_compare	compare_v1.cpp	/^pthread_t tid_compare[64];$/;"	v
+tid_fileList	compare_v1.cpp	/^pthread_t tid_fileList;$/;"	v
+CODE_FLAG	compare_v2.cpp	46;"	d	file:
+CodeKey	compare_v2.cpp	/^}CodeKey;$/;"	t	typeref:struct:_CodeKey	file:
+CompareResult	compare_v2.cpp	/^}CompareResult;$/;"	t	typeref:struct:_CompareResult	file:
+DB	compare_v2.cpp	40;"	d	file:
+DEBUG	compare_v2.cpp	23;"	d	file:
+FormatDir	compare_v2.cpp	/^void FormatDir(string& strDir)$/;"	f
+HOST_R	compare_v2.cpp	36;"	d	file:
+HOST_W	compare_v2.cpp	37;"	d	file:
+LBP_SIM	compare_v2.cpp	/^float LBP_SIM = 0.85;$/;"	v
+LONG_CONNECT	compare_v2.cpp	44;"	d	file:
+MSSIM_SIM	compare_v2.cpp	/^float MSSIM_SIM = 0.8;$/;"	v
+NEW_FLAG	compare_v2.cpp	48;"	d	file:
+NEW_FLAG_UPDATE	compare_v2.cpp	50;"	d	file:
+PASSWD	compare_v2.cpp	39;"	d	file:
+PORT	compare_v2.cpp	41;"	d	file:
+ReportInfo	compare_v2.cpp	/^}ReportInfo;$/;"	t	typeref:struct:_ReportInfo	file:
+TableInfo	compare_v2.cpp	/^}TableInfo;$/;"	t	typeref:struct:_TableInfo	file:
+ThreadArgs	compare_v2.cpp	/^}ThreadArgs;$/;"	t	typeref:struct:_ThreadArgs	file:
+USED_FLAG	compare_v2.cpp	47;"	d	file:
+USED_FLAG_UPDATE	compare_v2.cpp	49;"	d	file:
+USER	compare_v2.cpp	38;"	d	file:
+USE_MYSQL	compare_v2.cpp	25;"	d	file:
+USE_SQLITE3	compare_v2.cpp	24;"	d	file:
+_CodeKey	compare_v2.cpp	/^typedef struct _CodeKey{$/;"	s	file:
+_CompareResult	compare_v2.cpp	/^typedef struct _CompareResult{$/;"	s	file:
+_ReportInfo	compare_v2.cpp	/^typedef struct _ReportInfo{$/;"	s	file:
+_TableInfo	compare_v2.cpp	/^typedef struct _TableInfo{$/;"	s	file:
+_ThreadArgs	compare_v2.cpp	/^typedef struct _ThreadArgs{$/;"	s	file:
+bitCount	compare_v2.cpp	/^int bitCount ( unsigned n ) {$/;"	f
+compare_time	compare_v2.cpp	/^int compare_time(string &str1,string &str2)$/;"	f
+count	compare_v2.cpp	/^	int count;$/;"	m	struct:_CodeKey	file:
+deepCompare	compare_v2.cpp	/^float deepCompare(char *path1,char *path2,CvRect roi)$/;"	f
+g_ihost	compare_v2.cpp	/^int g_ihost = -1;$/;"	v
+g_inPath1	compare_v2.cpp	/^char g_inPath1[PATH_MAX];$/;"	v
+g_inPath2	compare_v2.cpp	/^char g_inPath2[PATH_MAX];$/;"	v
+g_mutex_file	compare_v2.cpp	/^pthread_mutex_t g_mutex_file;$/;"	v
+g_rectRoi	compare_v2.cpp	/^CvRect g_rectRoi = cvRect(0,0,0,0);$/;"	v
+g_threadNum	compare_v2.cpp	/^int g_threadNum = 4;$/;"	v
+getCodes	compare_v2.cpp	/^int getCodes(string dirPath, vector<CodeKey>& CodeList)$/;"	f
+getDirList	compare_v2.cpp	/^int getDirList(string strDir,list<string> &pList)$/;"	f
+getFileList	compare_v2.cpp	/^int getFileList(string strDir,list<string> &pList)$/;"	f
+getFileList	compare_v2.cpp	/^int getFileList(string strDir,vector<string> &pList)$/;"	f
+getMSSIM	compare_v2.cpp	/^Scalar getMSSIM(char * imagePatha,char * imagePathb,CvRect roi)$/;"	f
+hashCode	compare_v2.cpp	/^	int hashCode[2];$/;"	m	struct:_CodeKey	file:
+imageHist	compare_v2.cpp	/^int imageHist(char* imagePath,CvRect roi_s,CvRect roi_d)$/;"	f
+lbpCode	compare_v2.cpp	/^	float lbpCode[59];$/;"	m	struct:_CodeKey	file:
+m_bReady	compare_v2.cpp	/^	bool m_bReady;$/;"	m	struct:_ThreadArgs	file:
+m_cond	compare_v2.cpp	/^	pthread_cond_t m_cond;$/;"	m	struct:_ThreadArgs	file:
+m_hash_dist	compare_v2.cpp	/^	int m_hash_dist;$/;"	m	struct:_CompareResult	file:
+m_iCodeFlag	compare_v2.cpp	/^	int m_iCodeFlag;$/;"	m	struct:_TableInfo	file:
+m_iNewFlag	compare_v2.cpp	/^	int m_iNewFlag;		$/;"	m	struct:_TableInfo	file:
+m_iUsedFlag	compare_v2.cpp	/^	int m_iUsedFlag;$/;"	m	struct:_TableInfo	file:
+m_ihost	compare_v2.cpp	/^	int m_ihost;	$/;"	m	struct:_ThreadArgs	file:
+m_lbp_sim	compare_v2.cpp	/^	float m_lbp_sim;$/;"	m	struct:_CompareResult	file:
+m_lstObj	compare_v2.cpp	/^	list< pair<TableInfo,list<TableInfo> > > m_lstObj;$/;"	m	struct:_ThreadArgs	file:
+m_lstObjKey	compare_v2.cpp	/^	list<string> m_lstObjKey;$/;"	m	struct:_ThreadArgs	file:
+m_lstSrcKey	compare_v2.cpp	/^	list<string> m_lstSrcKey;	$/;"	m	struct:_ThreadArgs	file:
+m_mtx_file	compare_v2.cpp	/^	pthread_mutex_t m_mtx_file;$/;"	m	struct:_ThreadArgs	file:
+m_mtx_lock	compare_v2.cpp	/^	pthread_mutex_t	m_mtx_lock;$/;"	m	struct:_ThreadArgs	file:
+m_ssim_sim	compare_v2.cpp	/^	float m_ssim_sim;	$/;"	m	struct:_CompareResult	file:
+m_strDatabase	compare_v2.cpp	/^	string m_strDatabase;$/;"	m	struct:_ThreadArgs	file:
+m_strDate	compare_v2.cpp	/^	string m_strDate;$/;"	m	struct:_TableInfo	file:
+m_strImageDir	compare_v2.cpp	/^	string m_strImageDir;$/;"	m	struct:_TableInfo	file:
+m_strKeyPath	compare_v2.cpp	/^	string m_strKeyPath;$/;"	m	struct:_TableInfo	file:
+m_strKeyType	compare_v2.cpp	/^	string m_strKeyType;	$/;"	m	struct:_TableInfo	file:
+m_strObj	compare_v2.cpp	/^	string m_strObj;$/;"	m	struct:_CompareResult	file:
+m_strOnlineTime	compare_v2.cpp	/^	string m_strOnlineTime;$/;"	m	struct:_TableInfo	file:
+m_strPath	compare_v2.cpp	/^	string m_strPath;$/;"	m	struct:_ReportInfo	file:
+m_strReportDir	compare_v2.cpp	/^	string m_strReportDir;$/;"	m	struct:_ThreadArgs	file:
+m_strRoi	compare_v2.cpp	/^	string m_strRoi;$/;"	m	struct:_TableInfo	file:
+m_strSite	compare_v2.cpp	/^	string m_strSite;	$/;"	m	struct:_ReportInfo	file:
+m_strSite	compare_v2.cpp	/^	string m_strSite;$/;"	m	struct:_TableInfo	file:
+m_strSrc	compare_v2.cpp	/^	string m_strSrc;	$/;"	m	struct:_CompareResult	file:
+m_strTable	compare_v2.cpp	/^	string m_strTable;$/;"	m	struct:_ThreadArgs	file:
+main	compare_v2.cpp	/^int main(int argc, char* argv[])$/;"	f
+path	compare_v2.cpp	/^	string path;$/;"	m	struct:_CodeKey	file:
+removeAll	compare_v2.cpp	/^void removeAll(string &str,char c)$/;"	f
+tableName_i	compare_v2.cpp	/^char tableName_i[] = "iqiyidata";$/;"	v
+tableName_o	compare_v2.cpp	/^char tableName_o[] = "pathdata";$/;"	v
+thread_compare	compare_v2.cpp	/^void* thread_compare(void *arg)$/;"	f
+thread_getImageList	compare_v2.cpp	/^void* thread_getImageList(void *arg)$/;"	f
+tid_compare	compare_v2.cpp	/^pthread_t tid_compare[64];$/;"	v
+tid_fileList	compare_v2.cpp	/^pthread_t tid_fileList;$/;"	v
+NormalizeHist	hash_lbp.cpp	/^void NormalizeHist(float *hist)$/;"	f
+compareHist	hash_lbp.cpp	/^float compareHist(float *hist1,float *hist2, int histSize)$/;"	f
+countDifferentBit	hash_lbp.cpp	/^int countDifferentBit(int a,int b)$/;"	f
+getHanmingDistance	hash_lbp.cpp	/^int getHanmingDistance(int* code1,int* code2)$/;"	f
+getHanmingDistance	hash_lbp.cpp	/^int getHanmingDistance(string &str1,string &str2)$/;"	f
+getLbpHist	hash_lbp.cpp	/^int getLbpHist(char* imagePath,CvRect roi, float *hist,int mode)$/;"	f
+getLbpSimilar	hash_lbp.cpp	/^int getLbpSimilar(char* imagePath_a,CvRect roi_a,char* imagePath_b,CvRect roi_b)$/;"	f
+getLbpSimilar	hash_lbp.cpp	/^int getLbpSimilar(char* imagePath_a,CvRect roi_a,float *model_hist)$/;"	f
+getUniformLBP	hash_lbp.cpp	/^int getUniformLBP(IplImage *src, IplImage *dst, CvRect roi,const uchar *table)$/;"	f
+pHashCode	hash_lbp.cpp	/^int pHashCode(char* imagePath, int* code, CvRect roi)$/;"	f
+pHashCode	hash_lbp.cpp	/^string pHashCode(char* imagePath, CvRect roi)$/;"	f
+STRING_HASH_CODE	hash_lbp.h	17;"	d
+__HASH_LBP_H__	hash_lbp.h	2;"	d
+gLBP8U2	hash_lbp.h	/^const uchar gLBP8U2[256] = {$/;"	v
+CODE_FLAG	makeCodes_v1.cpp	47;"	d	file:
+CODE_FLAG_UPDATE	makeCodes_v1.cpp	50;"	d	file:
+DB	makeCodes_v1.cpp	43;"	d	file:
+DEBUG	makeCodes_v1.cpp	26;"	d	file:
+Database	makeCodes_v1.cpp	/^}Database;$/;"	t	typeref:struct:_Database	file:
+HOST_R	makeCodes_v1.cpp	39;"	d	file:
+HOST_W	makeCodes_v1.cpp	40;"	d	file:
+NEW_FLAG	makeCodes_v1.cpp	49;"	d	file:
+PASSWD	makeCodes_v1.cpp	42;"	d	file:
+PORT	makeCodes_v1.cpp	44;"	d	file:
+ThreadArgs	makeCodes_v1.cpp	/^}ThreadArgs;$/;"	t	typeref:struct:_ThreadArgs	file:
+USED_FLAG	makeCodes_v1.cpp	48;"	d	file:
+USER	makeCodes_v1.cpp	41;"	d	file:
+USE_MYSQL	makeCodes_v1.cpp	28;"	d	file:
+USE_SQLITE3	makeCodes_v1.cpp	27;"	d	file:
+_Database	makeCodes_v1.cpp	/^typedef struct _Database{	$/;"	s	file:
+_ThreadArgs	makeCodes_v1.cpp	/^typedef struct _ThreadArgs{$/;"	s	file:
+formatDir	makeCodes_v1.cpp	/^void formatDir(string &strDir)$/;"	f
+g_ihost	makeCodes_v1.cpp	/^int g_ihost = -1;$/;"	v
+g_inPath1	makeCodes_v1.cpp	/^char g_inPath1[PATH_MAX];$/;"	v
+g_inPath2	makeCodes_v1.cpp	/^char g_inPath2[PATH_MAX];$/;"	v
+g_rectRoi	makeCodes_v1.cpp	/^CvRect g_rectRoi = cvRect(0,0,0,0);$/;"	v
+g_strKeyCodePath	makeCodes_v1.cpp	/^string g_strKeyCodePath;	$/;"	v
+g_threadNum	makeCodes_v1.cpp	/^int g_threadNum = 4;$/;"	v
+getFileList	makeCodes_v1.cpp	/^int getFileList(string strDir,list<string> &pList)$/;"	f
+m_bReady	makeCodes_v1.cpp	/^	bool m_bReady;	$/;"	m	struct:_ThreadArgs	file:
+m_cond	makeCodes_v1.cpp	/^	pthread_cond_t m_cond;$/;"	m	struct:_ThreadArgs	file:
+m_iNewFlag	makeCodes_v1.cpp	/^	int m_iNewFlag;		$/;"	m	struct:_Database	file:
+m_ihost	makeCodes_v1.cpp	/^	int m_ihost;$/;"	m	struct:_ThreadArgs	file:
+m_lstInfo	makeCodes_v1.cpp	/^	list<Database> m_lstInfo;	$/;"	m	struct:_ThreadArgs	file:
+m_mtx_lock	makeCodes_v1.cpp	/^	pthread_mutex_t	m_mtx_lock;$/;"	m	struct:_ThreadArgs	file:
+m_strDatabase	makeCodes_v1.cpp	/^	string m_strDatabase;$/;"	m	struct:_ThreadArgs	file:
+m_strImageDir	makeCodes_v1.cpp	/^	string m_strImageDir;$/;"	m	struct:_Database	file:
+m_strKeyPath	makeCodes_v1.cpp	/^	string m_strKeyPath;$/;"	m	struct:_Database	file:
+m_strKeyType	makeCodes_v1.cpp	/^	string m_strKeyType;$/;"	m	struct:_Database	file:
+m_strRoi	makeCodes_v1.cpp	/^	string m_strRoi;$/;"	m	struct:_Database	file:
+m_strSite	makeCodes_v1.cpp	/^	string m_strSite;$/;"	m	struct:_Database	file:
+m_strTable	makeCodes_v1.cpp	/^	string m_strTable;$/;"	m	struct:_ThreadArgs	file:
+main	makeCodes_v1.cpp	/^int main(int argc, char* argv[])$/;"	f
+threadArgs	makeCodes_v1.cpp	/^ThreadArgs threadArgs;$/;"	v
+thread_getImageList	makeCodes_v1.cpp	/^void* thread_getImageList(void *arg)$/;"	f
+thread_makeCode	makeCodes_v1.cpp	/^void* thread_makeCode(void *arg)$/;"	f
+tid_fileList	makeCodes_v1.cpp	/^pthread_t tid_fileList;$/;"	v
+tid_makeCode	makeCodes_v1.cpp	/^pthread_t tid_makeCode[64];$/;"	v
+DB	makeCodes_v2.cpp	38;"	d	file:
+Database	makeCodes_v2.cpp	/^}Database;$/;"	t	typeref:struct:_Database	file:
+HOST_R	makeCodes_v2.cpp	34;"	d	file:
+HOST_W	makeCodes_v2.cpp	35;"	d	file:
+PASSWD	makeCodes_v2.cpp	37;"	d	file:
+PORT	makeCodes_v2.cpp	39;"	d	file:
+ThreadArgs	makeCodes_v2.cpp	/^}ThreadArgs;$/;"	t	typeref:struct:_ThreadArgs	file:
+USER	makeCodes_v2.cpp	36;"	d	file:
+USE_MYSQL	makeCodes_v2.cpp	32;"	d	file:
+USE_SQLITE3	makeCodes_v2.cpp	31;"	d	file:
+_Database	makeCodes_v2.cpp	/^typedef struct _Database{	$/;"	s	file:
+_ThreadArgs	makeCodes_v2.cpp	/^typedef struct _ThreadArgs{$/;"	s	file:
+formatDir	makeCodes_v2.cpp	/^void formatDir(string &strDir)$/;"	f
+g_ihost	makeCodes_v2.cpp	/^int g_ihost = -1;$/;"	v
+g_inPath1	makeCodes_v2.cpp	/^char g_inPath1[PATH_MAX];$/;"	v
+g_inPath2	makeCodes_v2.cpp	/^char g_inPath2[PATH_MAX];$/;"	v
+g_rectRoi	makeCodes_v2.cpp	/^CvRect g_rectRoi = cvRect(0,0,0,0);$/;"	v
+g_strKeyCodePath	makeCodes_v2.cpp	/^string g_strKeyCodePath;	$/;"	v
+g_threadNum	makeCodes_v2.cpp	/^int g_threadNum = 4;$/;"	v
+getFileList	makeCodes_v2.cpp	/^int getFileList(string strDir,list<string> &pList)$/;"	f
+m_bReady	makeCodes_v2.cpp	/^	bool m_bReady;	$/;"	m	struct:_ThreadArgs	file:
+m_cond	makeCodes_v2.cpp	/^	pthread_cond_t m_cond;$/;"	m	struct:_ThreadArgs	file:
+m_iNewFlag	makeCodes_v2.cpp	/^	int m_iNewFlag;		$/;"	m	struct:_Database	file:
+m_ihost	makeCodes_v2.cpp	/^	int m_ihost;$/;"	m	struct:_ThreadArgs	file:
+m_lstInfo	makeCodes_v2.cpp	/^	list<Database> m_lstInfo;	$/;"	m	struct:_ThreadArgs	file:
+m_mtx_lock	makeCodes_v2.cpp	/^	pthread_mutex_t	m_mtx_lock;$/;"	m	struct:_ThreadArgs	file:
+m_strDatabase	makeCodes_v2.cpp	/^	string m_strDatabase;$/;"	m	struct:_ThreadArgs	file:
+m_strImageDir	makeCodes_v2.cpp	/^	string m_strImageDir;$/;"	m	struct:_Database	file:
+m_strKeyPath	makeCodes_v2.cpp	/^	string m_strKeyPath;$/;"	m	struct:_Database	file:
+m_strKeyType	makeCodes_v2.cpp	/^	string m_strKeyType;$/;"	m	struct:_Database	file:
+m_strRoi	makeCodes_v2.cpp	/^	string m_strRoi;$/;"	m	struct:_Database	file:
+m_strSite	makeCodes_v2.cpp	/^	string m_strSite;$/;"	m	struct:_Database	file:
+m_strTable	makeCodes_v2.cpp	/^	string m_strTable;$/;"	m	struct:_ThreadArgs	file:
+main	makeCodes_v2.cpp	/^int main(int argc, char* argv[])$/;"	f
+threadArgs	makeCodes_v2.cpp	/^ThreadArgs threadArgs;$/;"	v
+thread_getImageList	makeCodes_v2.cpp	/^void* thread_getImageList(void *arg)$/;"	f
+thread_makeCode	makeCodes_v2.cpp	/^void* thread_makeCode(void *arg)$/;"	f
+tid_fileList	makeCodes_v2.cpp	/^pthread_t tid_fileList;$/;"	v
+tid_makeCode	makeCodes_v2.cpp	/^pthread_t tid_makeCode[64];$/;"	v
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
